@@ -35,8 +35,8 @@ const ASSETS = {
     siteTitle: "SULTANPLAY77 | INFO GACOR SPECIAL MAXWIN",
     siteTitle_Togel: "SULTANPLAY77 | Prediksi Togel BOCORAN HALUS HALUS",
 
-    logoUrl: "https://i.ibb.co/FLSpqT3Q/3-SULTANPLAY.png",
-    faviconUrl: "https://cdn.databerjalan.com/assets/images/companies/pegasusplay77/pegasusplay77-favicon.png",
+    logoUrl: "https://ik.imagekit.io/5awvxqria/SULTANPLAY-GIF.gif",
+    faviconUrl: "https://ik.imagekit.io/5awvxqria/favicon%20sultanplay77.png",
 
     // ============================================
     // 📢 MARQUEE TEXT - Text Berjalan
@@ -81,7 +81,7 @@ const ASSETS = {
     popupEnabled: true,                                                    // true = tampilkan, false = sembunyikan
     popupDelay: 2000,                                                      // Delay popup muncul (ms)
     popupRibbonText: "SITUS BAIK DAN BERSAHABAT",                            // Label di popup
-    popupImageUrl: "hhttps://i.ibb.co/Hp4k3SzT/rtp-tanpa-batas-sultanplay.jpg", // Gambar banner popup
+    popupImageUrl: "https://ik.imagekit.io/5awvxqria/SETTING%20CHROME.jpg", // Gambar banner popup
     popupButton1Text: "Hubungi Admin",                                    // Teks tombol 1
     popupButton2Text: "Customer Care",                                     // Teks tombol 2
 
@@ -313,3 +313,4 @@ console.log(`   👩‍💼 Customer Care: ${ASSETS.enableCustomerCare ? 'ON' : 
 console.log(`   🎄 Popup Event: ${ASSETS.enablePopup ? 'ON' : 'OFF'}`);
 console.log(`   🎨 Theme: ${ASSETS.themePreset.toUpperCase()}`);
 console.log('✅ Ready to update all pages');
+
