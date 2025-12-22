@@ -115,12 +115,12 @@ const ASSETS = {
     // ============================================
     // PRESET: "red", "blue", "green", "purple", "gold", "custom"
     // Jika pakai "custom", isi nilai di bawah ini
-    themePreset: "gold",
+    themePreset: "custom",
 
     // CUSTOM COLORS (hanya dipakai jika themePreset: "custom")
     theme: {
         // Background utama
-        bgPrimary: "#200f0f",          // Warna background gelap utama
+        bgPrimary: "#ff7f00",          // Warna background gelap utama
         bgSecondary: "#331a1a",        // Warna background sekunder
         bgTertiary: "#4a2020",         // Warna background tertiary
 
@@ -313,4 +313,5 @@ console.log(`   👩‍💼 Customer Care: ${ASSETS.enableCustomerCare ? 'ON' : 
 console.log(`   🎄 Popup Event: ${ASSETS.enablePopup ? 'ON' : 'OFF'}`);
 console.log(`   🎨 Theme: ${ASSETS.themePreset.toUpperCase()}`);
 console.log('✅ Ready to update all pages');
+
 
