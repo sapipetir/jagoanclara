@@ -125,7 +125,7 @@ const ASSETS = {
         bgTertiary: "#4a2020",         // Warna background tertiary
 
         // Warna aksen utama
-        accentPrimary: "#ef4444",      // Warna aksen utama (tombol, border, dll)
+        accentPrimary: "#FF9100",      // Warna aksen utama (tombol, border, dll)
         accentSecondary: "#f87171",    // Warna aksen sekunder (hover, highlight)
         accentGlow: "rgba(239, 68, 68, 0.3)", // Warna glow/shadow
 
@@ -313,6 +313,7 @@ console.log(`   👩‍💼 Customer Care: ${ASSETS.enableCustomerCare ? 'ON' : 
 console.log(`   🎄 Popup Event: ${ASSETS.enablePopup ? 'ON' : 'OFF'}`);
 console.log(`   🎨 Theme: ${ASSETS.themePreset.toUpperCase()}`);
 console.log('✅ Ready to update all pages');
+
 
 
 
