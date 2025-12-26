@@ -115,7 +115,7 @@ const ASSETS = {
     // ============================================
     // PRESET: "red", "blue", "green", "purple", "gold", "custom"
     // Jika pakai "custom", isi nilai di bawah ini
-    themePreset: "custom",
+    themePreset: "sultanplay77",
 
     // CUSTOM COLORS (hanya dipakai jika themePreset: "custom")
     theme: {
@@ -211,6 +211,175 @@ const THEME_PRESETS = {
         marqueeBg: "rgba(30, 58, 138, 0.8)",
         marqueeText: "#ffffff"
     },
+
+    sultanplay77: {
+        // Background: Dark black dengan hint orange
+        bgPrimary: "#0a0a0a",           // Deep black
+        bgSecondary: "#1a1510",         // Dark dengan hint orange
+        bgTertiary: "#2d2518",          // Medium dark dengan hint orange
+
+        // Pattern: Carbon fiber hexagonal (premium look)
+        bgPattern: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15z' fill='none' stroke='%23f97316' stroke-width='1' opacity='0.15'/%3E%3C/svg%3E")`,
+
+        // Accent: Orange vibrant
+        accentPrimary: "#f97316",       // Orange accent
+        accentSecondary: "#fb923c",     // Light orange
+        accentGlow: "rgba(249, 115, 22, 0.15)",  // Subtle glow
+
+        // Text: Clean & readable
+        textPrimary: "#ffffff",         // Pure white
+        textSecondary: "#d1d5db",       // Light grey
+        textMuted: "#9ca3af",           // Muted grey
+
+        // CTA: Gold amber (standout)
+        ctaPrimary: "#fbbf24",          // Amber
+        ctaSecondary: "#f59e0b",        // Dark amber
+        ctaText: "#111827",             // Dark text
+
+        // Gradient: Dark orange shades
+        gradientStart: "#0a0a0a",
+        gradientMid: "#1a1208",
+        gradientEnd: "#0a0a0a",
+
+        // Border: Subtle orange accents
+        borderPrimary: "rgba(249, 115, 22, 0.3)",
+        borderSecondary: "rgba(249, 115, 22, 0.15)",
+
+        // RTP: Universal colors
+        rtpHigh: "#22c55e",
+        rtpMedium: "#eab308",
+        rtpLow: "#ef4444",
+
+        marqueeBg: "rgba(26, 21, 16, 0.9)",
+        marqueeText: "#ffffff"
+    },
+
+    cukongplay77: {
+        // Background: White/light dengan hint merah
+        bgPrimary: "#fafafa",           // Off white
+        bgSecondary: "#fff5f5",         // Light dengan hint merah
+        bgTertiary: "#fee2e2",          // Soft pink/red tint
+
+        // Pattern: Carbon fiber hexagonal (premium look)
+        bgPattern: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15z' fill='none' stroke='%23dc2626' stroke-width='1' opacity='0.12'/%3E%3C/svg%3E")`,
+
+        // Accent: Red vibrant
+        accentPrimary: "#dc2626",       // Red accent
+        accentSecondary: "#ef4444",     // Light red
+        accentGlow: "rgba(220, 38, 38, 0.1)",  // Subtle glow
+
+        // Text: Dark for light background
+        textPrimary: "#1f2937",         // Dark grey
+        textSecondary: "#4b5563",       // Medium grey
+        textMuted: "#6b7280",           // Muted grey
+
+        // CTA: Bold red (standout)
+        ctaPrimary: "#dc2626",          // Red
+        ctaSecondary: "#b91c1c",        // Dark red
+        ctaText: "#ffffff",             // White text
+
+        // Gradient: Light red shades
+        gradientStart: "#ffffff",
+        gradientMid: "#fff1f2",
+        gradientEnd: "#fafafa",
+
+        // Border: Subtle red accents
+        borderPrimary: "rgba(220, 38, 38, 0.25)",
+        borderSecondary: "rgba(220, 38, 38, 0.1)",
+
+        // RTP: Universal colors
+        rtpHigh: "#16a34a",
+        rtpMedium: "#ca8a04",
+        rtpLow: "#dc2626",
+
+        marqueeBg: "rgba(220, 38, 38, 0.95)",
+        marqueeText: "#ffffff"
+    },
+
+    playstar77: {
+        // Background: Dark dengan hint hijau
+        bgPrimary: "#0a0f0a",           // Deep dark green-black
+        bgSecondary: "#111a11",         // Dark dengan hint hijau
+        bgTertiary: "#1a2d1a",          // Medium dark green
+
+        // Pattern: Carbon fiber hexagonal (premium look)
+        bgPattern: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15z' fill='none' stroke='%2322c55e' stroke-width='1' opacity='0.15'/%3E%3C/svg%3E")`,
+
+        // Accent: Green vibrant
+        accentPrimary: "#22c55e",       // Green accent
+        accentSecondary: "#4ade80",     // Light green
+        accentGlow: "rgba(34, 197, 94, 0.15)",  // Subtle glow
+
+        // Text: Clean & readable
+        textPrimary: "#ffffff",         // Pure white
+        textSecondary: "#d1d5db",       // Light grey
+        textMuted: "#9ca3af",           // Muted grey
+
+        // CTA: Bright yellow (standout)
+        ctaPrimary: "#facc15",          // Yellow
+        ctaSecondary: "#eab308",        // Dark yellow
+        ctaText: "#111827",             // Dark text
+
+        // Gradient: Dark green shades
+        gradientStart: "#0a0f0a",
+        gradientMid: "#0f1a0f",
+        gradientEnd: "#0a0f0a",
+
+        // Border: Subtle green accents
+        borderPrimary: "rgba(34, 197, 94, 0.3)",
+        borderSecondary: "rgba(34, 197, 94, 0.15)",
+
+        // RTP: Universal colors
+        rtpHigh: "#22c55e",
+        rtpMedium: "#eab308",
+        rtpLow: "#ef4444",
+
+        marqueeBg: "rgba(17, 26, 17, 0.9)",
+        marqueeText: "#ffffff"
+    },
+
+    melody77: {
+        // Background: White/light dengan hint biru
+        bgPrimary: "#fafafa",           // Off white
+        bgSecondary: "#f0f9ff",         // Light dengan hint biru
+        bgTertiary: "#e0f2fe",          // Soft blue tint
+
+        // Pattern: Carbon fiber hexagonal (premium look)
+        bgPattern: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 0l25.98 15v30L30 60 4.02 45V15z' fill='none' stroke='%230ea5e9' stroke-width='1' opacity='0.12'/%3E%3C/svg%3E")`,
+
+        // Accent: Blue vibrant
+        accentPrimary: "#0ea5e9",       // Sky blue accent
+        accentSecondary: "#38bdf8",     // Light blue
+        accentGlow: "rgba(14, 165, 233, 0.1)",  // Subtle glow
+
+        // Text: Dark for light background
+        textPrimary: "#1f2937",         // Dark grey
+        textSecondary: "#4b5563",       // Medium grey
+        textMuted: "#6b7280",           // Muted grey
+
+        // CTA: Bold blue (standout)
+        ctaPrimary: "#0ea5e9",          // Sky blue
+        ctaSecondary: "#0284c7",        // Dark blue
+        ctaText: "#ffffff",             // White text
+
+        // Gradient: Light blue shades
+        gradientStart: "#ffffff",
+        gradientMid: "#f0f9ff",
+        gradientEnd: "#fafafa",
+
+        // Border: Subtle blue accents
+        borderPrimary: "rgba(14, 165, 233, 0.25)",
+        borderSecondary: "rgba(14, 165, 233, 0.1)",
+
+        // RTP: Universal colors
+        rtpHigh: "#16a34a",
+        rtpMedium: "#ca8a04",
+        rtpLow: "#dc2626",
+
+        marqueeBg: "rgba(14, 165, 233, 0.95)",
+        marqueeText: "#ffffff"
+    },
+    
     green: {
         bgPrimary: "#052e16",
         bgSecondary: "#14532d",
@@ -313,6 +482,7 @@ console.log(`   👩‍💼 Customer Care: ${ASSETS.enableCustomerCare ? 'ON' : 
 console.log(`   🎄 Popup Event: ${ASSETS.enablePopup ? 'ON' : 'OFF'}`);
 console.log(`   🎨 Theme: ${ASSETS.themePreset.toUpperCase()}`);
 console.log('✅ Ready to update all pages');
+
 
 
 
